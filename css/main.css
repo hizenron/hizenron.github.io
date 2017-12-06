@@ -280,19 +280,19 @@ div.myInfo h3{
     }
 }
 .bg-img li:nth-child(1){
-    background: url(../image/bg1.png) no-repeat center ;
+    background: url(../image/bg1-1.jpg) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(2){
-    background: url(../image/bg2.png) no-repeat center ;
+    background: url(../image/bg2-1.jpg) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(3){
-    background: url(../image/bg3.png) no-repeat center ;
+    background: url(../image/bg3-1.jpg) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(4){
-    background: url(../image/bg4.png) no-repeat center ;
+    background: url(../image/bg4-1.jpg) no-repeat center ;
     background-size: cover;
 }
 /*section2:导航条*/
