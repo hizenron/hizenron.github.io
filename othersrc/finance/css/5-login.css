@@ -1,0 +1,149 @@
+/*1.公用信息*/
+body{
+    background: #fff;
+}
+#main{
+    width: 100%;
+    margin:0;
+    padding:0;
+    background: #fff;
+}
+.header{
+    width: 1200px;
+    margin:20px auto;
+}
+.header ul li{
+    width:138px;
+    height: 36px;
+    float: left;
+    line-height: 36px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.header ul li:first-child{
+    background: url(../imgs/login_logo_01.png) center center no-repeat;
+    background-size:138px 36px;
+}
+/*2.内容*/
+.contentWrap{
+    width: 1200px;
+    height: 565px;
+    margin-top: 100px;
+}
+.contentWrap .login_bg a img{
+    width: 356px;
+    height: 250px;
+}
+.contentWrap .login_bg{
+    width: 356px;
+    height: 250px;
+    float: left;
+    margin-left: 200px;
+}
+.contentWrap .login_box{
+    width: 440px;
+    height: 250px;
+    float: right;
+
+}
+/*2.1 右侧信息*/
+.contentWrap .login-box h4 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #323232;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.contentWrap .login-box .input-group {
+    width: 388px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.contentWrap .login-box .input-group .warn {
+    background-color: #fff6d2;
+    border: 1px solid #ffe57d;
+}
+.contentWrap .login-box .input-group .warn i.icon {
+    background-position: -30px -16px;
+}
+.contentWrap .login-box .input-group .tip i.icon {
+    display: inline-block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 8px;
+    left: 8px;
+}
+.contentWrap .login-box .input-group .tip {
+    width: 300px;
+    padding: 4px 10px 4px 28px;
+}
+.contentWrap .login-box .input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+.contentWrap .login-box .input-group i.loginName {
+    background-position: 8px 9px;
+}
+.contentWrap .login-box .input-group .input-control {
+    width: 300px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 34px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+.contentWrap .login-box .input-group i.password {
+    background-position: 8px -46px;
+}
+.contentWrap .login-box .input-group i.icon {
+    display: inline-block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+.contentWrap .login-box .input-group a.forgot, .contentWrap .login-box .input-group span.register {
+    font-size: 12px;
+    color: #5e5e5e;
+}
+.contentWrap .login-box .input-group span.register {
+    float: right;
+}
+.contentWrap .login-box .input-group span.register a {
+    color: #ff6825;
+}
+.contentWrap .login-box .input-group a.login {
+    width: 300px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    display: block;
+    text-align:center;
+}
+.contentWrap .login-box .input-group a:hover {
+    text-decoration: none;
+    color:#ff6825;
+}
+.contentWrap .login-box .input-group a{
+    text-decoration: none;
+    color:#fff;
+}
+.btn-orange {
+    background-color: #ff6825;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 20px;
+}
+#btn1:hover {
+    color: #fff;
+}
+.contentWrap .login-box .input-group .input-control:focus {
+    border: 1px solid #7bbd55;
+
+}
+
+

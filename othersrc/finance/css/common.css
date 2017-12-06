@@ -1,0 +1,75 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*CSS通用样式*/
+body,ul,li,p,span,table,td,th,tr,pre a{
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Microsoft Yahei,Arial,sans-serif;
+    font-size: 14px;
+    font-style:normal;list-style:none; font-weight:normal;
+    color: #666;
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+img{display:block;border:0; vertical-align:middle;
+}
+a{
+	color:#333; text-decoration:none;outline: 0;
+	transition: color .2s,background-color .2s;cursor: pointer;
+	background-color: transparent;
+}
+*:focus{outline:none;}
+.a:hover{
+    color:#ff6200;
+    text-decoration: none;
+}
+.a{
+    color:#a5a5a5;
+    text-decoration: none;
+}
+table{border-collapse:collapse; border-spacing:0;}
+li{list-style:none;}
+.lf{float:left;}
+.rt{float:right;}
+.left{text-align:left;}
+.right{text-align:right;}
+.hidden,.hide{display: none}
+input{
+    border-style:none;
+    outline:0;
+}
+input:hover{
+    border:1px solid #a5a5a5;
+}
+/*减除父元素高度的影响*/
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/* CSS 通用样式结束 */
+
+#main{
+    width: 100%;
+    position: relative;
+}
+.header{
+    width: 100%;
+    margin:0 auto;
+    position: relative;
+    background: #F2F2F2;
+}
+
+div.loading img{
+    margin:0 auto;
+}
+
+
+

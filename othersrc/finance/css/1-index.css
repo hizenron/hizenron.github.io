@@ -1,0 +1,779 @@
+
+/*a标签的hover通用样式*/
+a:hover{
+    color:#ff6200;
+}
+/*2.banner广告轮播*/
+.banner{
+    width: 100%;
+    height: 340px;
+    position: relative;
+}
+.banner .carousel{
+    height: 340px;
+    width: 1920px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.banner .carousel .carousel_img li{
+   display: none; 
+}
+.carousel .num {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    font-size:0px;
+    text-align:center;
+    width: 100%;
+}
+.carousel .num li {
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    border-radius:50%;
+    background:#666;
+    color: #fff;
+    text-align:center;
+    display: inline-block;
+    font-size:16px;
+    margin:0 5px;
+    cursor: pointer;
+}
+.carousel .num li.active {
+    background:#a00;
+}
+.carousel .btn {
+    position:absolute;
+    top: 50%;
+    margin-top:-30px;
+    width: 30px;
+    height: 60px;
+    line-height:60px;
+    background:rgba(0, 0, 0, 0.5);
+    font-size:40px;
+    color: #fff;
+    font-family: "宋体";
+    text-align:center;
+    display: none;
+}
+.carousel .left {
+    left: 20%;
+}
+.carousel .right {
+    right: 20%;
+}
+.carousel:hover .btn {
+    display: block;
+    cursor: pointer;
+}
+/*3.index_ads -- 开始*/
+.index_ads{
+    width: 100%;
+    height: 190px;
+    margin:0 auto;
+}
+.index_ads .index_ads_content{
+    padding-top: 30px;
+    width: 1200px;
+    height: 190px;
+    margin:0 auto;
+}
+.index_ads .index_ads_content .index_ads_lf{
+    width: 288px;
+    height: 160px;
+    float: left;
+    background: #205791;
+}
+.index_ads .index_ads_content .index_ads_rt{
+    width: 896px;
+    height: 160px;
+    background: #fff;
+    float: right;
+    background: #fff;
+}
+.index_ads .index_ads_content .index_ads_rt ul{
+    height: 160px;
+    line-height: 160px;
+    margin:0 auto;
+    background: #fff;
+}
+.index_ads .index_ads_content .index_ads_rt ul li{
+    float: left;
+    margin: 55px 50px;
+    color: #5E5E5E;
+    height: 80px;
+    width: 180px;
+    line-height: 80px;
+    background: #fff;
+    position: relative;
+}
+.index_ads .index_ads_content .index_ads_rt ul li:nth-child(1)>a>p{
+    width: 50px;
+    height: 48px;
+    background: url("../imgs/index_ads_011.png") no-repeat;
+    background-size: 50px 48px;
+}
+.index_ads .index_ads_content .index_ads_rt ul li:nth-child(2)>a>p{
+    width: 50px;
+    height: 48px;
+    background: url("../imgs/index_ads_021.png") no-repeat;
+    background-size: 50px 48px;
+}
+.index_ads .index_ads_content .index_ads_rt ul li:nth-child(3)>a>p{
+    width: 50px;
+    height: 48px;
+    background: url("../imgs/index_ads_031.png") no-repeat;
+    background-size: 50px 48px;
+}
+
+.index_ads .index_ads_content .index_ads_rt ul li:nth-child(1)>a>p:hover{
+    width: 50px;
+    height: 48px;
+    background: url("../imgs/index_ads_01.png") no-repeat;
+    background-size: 50px 48px;
+}
+.index_ads .index_ads_content .index_ads_rt ul li:nth-child(2)>a>p:hover{
+    width: 50px;
+    height: 48px;
+    background: url("../imgs/index_ads_02.png") no-repeat;
+    background-size: 50px 48px;
+}
+.index_ads .index_ads_content .index_ads_rt ul li:nth-child(3)>a>p:hover{
+    width: 50px;
+    height: 48px;
+    background: url("../imgs/index_ads_03.png") no-repeat;
+    background-size: 50px 48px;
+}
+.index_ads .index_ads_content .index_ads_rt ul li div p:nth-child(1){
+    font-size: 20px;
+    width: 150px;
+    height: 20px;
+}
+.index_ads .index_ads_content .index_ads_rt ul li div p:nth-child(2){
+    font-size: 12px;
+    width: 160px;
+    height: 20px;
+}
+.index_ads .index_ads_content .index_ads_rt ul li div{
+    position: absolute;
+    top: -25%;
+    left: 35%;
+}
+/*3.index_ads -- 结束*/
+/*4.产品内容信息--开始*/
+.product_list{
+    width: 100%;
+    margin:30px auto 0;
+}
+.product_list .floor_title span:nth-child(1){
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+    margin-right:10px;
+}
+.product_list .floor_title span:nth-child(2){
+    font-size: 16px;
+}
+.floor_title{
+    margin-bottom: 15px;
+}
+/*4.1:第一层：产品推荐 */
+.main_pro_recommend{
+    width: 1200px;
+    margin:0 auto 20px;
+}
+.f1 .rcm_pro_item{
+ display: flex;
+justify-content:space-between;
+}
+.f1 .rcm_pro_details{
+    width: 288px;
+    height: 270px;
+    background: #fff;
+    text-align: center;
+    display: inline-block;
+
+}
+.main_pro_recommend .sd:hover{
+    box-shadow:-5px 15px 30px #0000001a;
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .title{
+    font-size: 16px;
+    color: #333333;
+    padding-top: 26px;
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .tags_box{
+    margin-top:10px;
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .tags_box .tag{
+    color: #A5A5A5;
+}
+.main_pro_recommend .rcm_pro_item .product_item .rate_box{
+    padding-top: 20px;
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .rate_box span{
+    color: #ff6200;
+    font-size: 48px;
+    padding-top: 20px;
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .rate_box .unit{
+    font-size: 24px;
+
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .rate_desc{
+    margin-top:10px;
+    font-size: 14px;
+    color: #B0B0B0;
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .btn_box{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .btn_box p {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 100%;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.main_pro_recommend .rcm_pro_item .rcm_pro_details .btn_box a{
+     position: absolute;
+     bottom:-40px;
+     -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     -webkit-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+     width: 210px;
+     height: 40px;
+     line-height: 38px;
+     background: #ff6200;
+     font-size: 16px;
+     color: #fff;
+     left: 39px;
+ }
+.main_pro_recommend .rcm_pro_item .rcm_pro_details:hover .btn_box a{
+     bottom:0;
+ }
+.main_pro_recommend .rcm_pro_item .rcm_pro_details:hover .btn_box p{
+    font-size:0;
+}
+ /*4.2 第二层网贷产品：web_loan_pro*/
+.web_loan_pro{
+    width: 1200px;
+    margin:0 auto 20px;
+}
+.wl_pro_item{
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+/*左侧图片样式*/
+.wl_pro_item .wl_lf_pic{
+    width:288px;
+    height: 330px;
+    background:url(../imgs/wl_lf_pic_01.jpg) center center no-repeat;
+    position: relative;
+}
+.pro_pic_content{
+    width: 288px;
+    position:absolute;
+    bottom:25%; left :0%;
+    text-align: center;
+    overflow: hidden;
+  }
+.pro_pic_content>p{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.pro_pic_content>a{
+    display: block;
+    width: 175px;
+    height: 40px;
+    margin:0 auto;
+    background:transparent;
+    border:1px solid #fff;
+    color: #fff;
+    line-height: 40px;
+}
+/*右侧产品信息*/
+.wl_pro_details{
+    width: 896px;
+    height: 330px;
+}
+.wl_pro_details>ul{
+    width: 896px;
+    height: 110px;
+    background: #fff;
+}
+.wl_pro_details ul:nth-child(2),.wl_pro_details ul:nth-child(3){
+    border-top: 1px solid #f5f5f5;
+}
+.wl_pro_details li:nth-child(1){
+    width: 200px;
+}
+.wl_pro_details li{
+    float: left;
+    height: 25px;
+    width: 100px;
+    line-height: 25px;
+    display: inline-block;
+    margin: 45px 51px 0 8px;
+    text-align: center;
+}
+.wl_pro_details li:last-child>div{
+    margin-top:15%;
+}
+/*文字样式*/
+.wl_pro_details ul li>div p:first-child{
+    font-size: 16px;
+    color:#333;
+}
+.wl_pro_details ul li>div p:last-child{
+    color:#B0B0B0;
+}
+.wl_pro_details ul li:nth-child(2) div p:first-child{
+    color:#ff6200;
+    font-size:26px;
+}
+.wl_pro_details ul li:nth-child(2) div span{
+    color:#ff6200;
+}
+/*4.3 海外产品信息：overseas_pro_item*/
+.overseas_pro{
+    width: 1200px;
+    margin:0 auto 20px;
+}
+.overseas_pro_item {
+    width: 1200px;
+    height:220px;
+    margin:0 auto 20px;
+    display: flex;
+    justify-content:space-between;
+}
+/*左侧图片样式*/
+.overseas_lf_pic{
+    width:288px;
+    height: 220px;
+    background:url(../imgs/overseas_lf_pic.jpeg) center center no-repeat;
+    position: relative;
+}
+/*右侧样式*/
+.overseas_pro_details{
+    width: 896px;
+    height: 330px;
+}
+.overseas_pro_details>ul{
+    width: 896px;
+    height: 110px;
+    background: #fff;
+}
+.overseas_pro_details ul:nth-child(2),.overseas_pro_details ul:nth-child(3){
+    border-top: 1px solid #f5f5f5;
+}
+.overseas_pro_details li{
+    float: left;
+    height: 25px;
+    width: 100px;
+    line-height: 25px;
+    display: inline-block;
+    margin: 45px 51px 0 8px;
+    text-align: center;
+}
+.overseas_pro_details li:nth-child(1){
+    width: 200px;
+}
+.overseas_pro_details li:last-child>div{
+    margin-top:15%;
+}
+/*文字样式*/
+.overseas_pro_details ul li>div p:first-child{
+    font-size: 16px;
+    color:#333;
+}
+.overseas_pro_details ul li>div p:last-child{
+    color:#B0B0B0;
+}
+.overseas_pro_details ul li:nth-child(2) div p:first-child{
+    color:#ff6200;
+    font-size:26px;
+}
+.overseas_pro_details ul li:nth-child(2) div span{
+    color:#ff6200;
+}
+/*4.4 保险产品信息：insurance_pro_item*/
+.insurance_pro {
+    width: 1200px;
+    margin:0 auto 20px;
+}
+.insurance_pro_item {
+    width: 1200px;margin:0 auto 20px;
+    display: flex;
+    justify-content:space-between;
+}
+.insurance_pro_details{
+    width: 896px;
+    height: 330px;
+}
+/*左侧图片样式*/
+.insurance_lf_pic{
+    width:288px;
+    height: 360px;
+    background:url(../imgs/insurance_lf_pic.jpeg) center center no-repeat;
+    position: relative;
+}
+.insurance_pro_details>div div{
+    margin:0;
+    pading:0;
+    width: 446px;
+    height: 178px;
+    float:left;
+    background: #fff;
+}
+
+.ins_pro_content{
+    border:1px solid #f5f5f5;
+}
+.ins_pro_content a{
+    display: block;
+    position: relative;
+}
+.ins_pro_content img{
+    width: 150px;
+    height: 125px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+/*右侧文本样式*/
+.insurance_pro_details .ins_pro_content a p{
+    position:absolute;
+    left: 20px;
+}
+.insurance_pro_details .ins_pro_content a p:first-child{
+    font-size:16px;
+    color:#333;
+    top:30px;
+}
+.insurance_pro_details .ins_pro_content a p:nth-child(2){
+    color: #B0B0B0;
+    font-size: 14px;
+    top:60px;
+}
+.insurance_pro_details .ins_pro_content a p:nth-child(3){
+    top:120px;
+}
+.insurance_pro_details .ins_pro_content a p:nth-child(3) span{
+    color: #ff6825;
+}
+.insurance_pro_details .ins_pro_content a p:nth-child(3) span:nth-child(2){
+    font-size:26px;
+}
+
+/*4.5 基金产品：*/
+.fund_pro{
+    width: 1200px;
+    margin:0 auto 20px;
+}
+.fund_pro_item {
+    width: 1200px;margin:0 auto 20px;
+    display: flex;
+    justify-content:space-between;
+}
+.fund_pro_details{
+    width: 896px;
+    height: 330px;
+}
+.fund_pro_details>div div{
+    margin:0;
+    pading:0;
+    width: 446px;
+    height: 178px;
+    float:left;
+    background: #fff;
+}
+.fund_lf_pic{
+    width:288px;
+    height: 360px;
+    background:url(../imgs/fund_lf_pic.jpeg) center center no-repeat;
+    position: relative;
+}
+.fd_pro_content{
+    border:1px solid #f5f5f5;
+}
+.fd_pro_content a{
+    display: block;
+    position: relative;
+}
+
+/*右侧文本样式*/
+.fund_pro_details .fd_pro_content a p{
+    position:absolute;
+    left: 20px;
+}
+.fund_pro_details .fd_pro_content a p:first-child{
+    font-size:16px;
+    color:#333;
+    top:30px;
+}
+.fund_pro_details .fd_pro_content a p:nth-child(2){
+    color: #B0B0B0;
+    font-size: 14px;
+    top:60px;
+}
+.fund_pro_details .fd_pro_content a p:nth-child(3){
+    top:120px;
+}
+.fund_pro_details .fd_pro_content a p:nth-child(3) span{
+    color: #ff6825;
+}
+.fund_pro_details .fd_pro_content a p:nth-child(3) span:nth-child(2){
+    font-size:26px;
+}
+.fd_pro_content>a p:last-child{
+    width: 90px;
+    height: 32px;
+    position: absolute;
+    top: 130px;
+    left: 340px;
+    background: #ff6200;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+}
+/*4.产品内容信息--结束*/
+/*5.投资排行及媒体宣传--开始*/
+.media_msg{
+    width: 1200px;
+    height:350px;
+    margin:20px auto 20px;
+}
+.investment_sorting{
+    width: 288px;
+    height: 350px;
+    float: left;
+}
+.media_report{
+    width: 898px;
+    height: 350px;
+    float: right;
+}
+.media_report_lf,.media_report_cen,.media_report_rt{
+    width:275px;
+    height: 150px;
+    float: left;
+}
+.media_report_lf img{
+     width:270px;
+     height: 150px;
+
+ }
+.media_report_cen img{
+    width:270px;
+    height: 150px;
+}
+.media_report_rt img{
+    width:270px;
+    height: 150px;
+}
+.investment_sorting div{
+    width: 288px;
+    position: relative;
+}
+.investment_sorting table{
+    width: 288px;
+    height:310px;
+    background: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.investment_sorting table thead tr td{
+    text-align: left;
+    vertical-align: middle;
+    padding: 0px 5px 0px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #323232;
+    border-bottom: 1px solid #f5f5f5;
+}
+.investment_sorting div span:first-child{
+    font-size: 24px;
+    width: 304px;
+    color: #000;
+    font-weight: 500;
+    padding: 42px 0 18px;
+    position: relative;
+    display: inline-block;
+}
+.investment_sorting div span:last-child{
+    position: absolute;
+    right: 16px;
+    bottom: 20px;
+    color: #888;
+    font-weight: 400;
+}
+.investment_sorting div span:last-child:hover{
+    color: #ff6200;
+}
+.media_report{
+    width:898px;
+    height:405px;
+    background: #fff;
+}
+
+.media_report .media_report_title{
+    width: 898px;
+    height:91px;
+    position: relative;
+    background: #f2f2f2;
+}
+.media_report .media_report_title span:first-child{
+    position: absolute;
+    left: 5px;
+    color: #000;
+    font-weight: 400;
+    right: 16px;
+    bottom: 20px;
+    font-size: 24px;
+}
+.media_report .media_report_title span:last-child{
+    position: absolute;
+    right: 16px;
+    bottom: 20px;
+    color: #888;
+    font-weight: 400;
+}
+.media_report_content{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.media_report_content .media_con_title{
+    font-size: 16px;
+    letter-spacing: -.45px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 30px 0 20px;
+    color: #333;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.media_report_content .media_con_title+p{
+    color:#a5a5a5;
+}
+.media_report_content .media_con_title:hover{
+    color:#ff6200;
+}
+/*5.投资排行及媒体宣传--结束*/
+/*6.股东背景*/
+.Shareholders{
+    width:100%;
+    height: 240px;
+    margin:80px auto 20px;
+    background: #fff;
+    clear:both;
+}
+.Shareholders p{
+    width: 1200px;
+    margin:30px auto 30px;
+    font-size:24px;
+    color:#000;
+    text-align: center;
+    clear:both;
+}
+.Shareholders ul{
+    width:1200px;
+    margin:0 auto;
+    height: 240px;
+    clear:both;
+}
+.Shareholders ul li{
+    position: relative;
+    display: inline-block;
+    margin-right:40px;
+    float: left;
+    height: 90px;
+    width: 130px;
+}
+.Shareholders ul li a{
+    position: absolute;
+    width: 100px;
+    bottom: -35%;
+    left: 12%;
+    text-align: center;
+    font-size: 18px;
+    color: #BBB;
+
+}
+.Shareholders ul li:nth-child(1){
+    background:url(../imgs/stock_1.png) no-repeat top center;
+}
+
+.Shareholders ul li:nth-child(2){
+    background:url(../imgs/stock_2.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(3){
+    background:url(../imgs/stock_3.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(4){
+    background:url(../imgs/stock_4.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(5){
+    background:url(../imgs/stock_5.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(6){
+    background:url(../imgs/stock_6.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(7){
+    background:url(../imgs/stock_7.png) no-repeat top center;
+}
+
+.Shareholders ul li:nth-child(1):hover{
+    background:url(../imgs/stock_11.png) no-repeat top center;
+}
+
+.Shareholders ul li:nth-child(2):hover{
+    background:url(../imgs/stock_21.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(3):hover{
+    background:url(../imgs/stock_31.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(4):hover{
+    background:url(../imgs/stock_41.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(5):hover{
+    background:url(../imgs/stock_51.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(6):hover{
+    background:url(../imgs/stock_61.png) no-repeat top center;
+}
+.Shareholders ul li:nth-child(7):hover{
+    background:url(../imgs/stock_71.png) no-repeat top center;
+}
+
+
+
+
+
+
+
+
+
+
+
